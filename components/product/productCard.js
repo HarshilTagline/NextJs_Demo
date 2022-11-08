@@ -41,7 +41,7 @@ export default function ProductCard({ product, handleAddToCart }) {
         <button>
           <Link href={`/products/${product.id}`}>View Details</Link>
         </button>
-        <button onClick={handleClick}>Only for - Redux</button>
+        <button onClick={handleClick}>Only for Redux</button>
       </div>
       <hr />
     </div>
